@@ -58,8 +58,8 @@ function draw() {
     
     stroke(colorR,colorG,0);
     strokeWeight(10);
-    rect(0,0,650,490)
-    image(capture,6,6,640,480);
+    rect(0,0,capture.width+10,capture.height+10)
+    image(capture,6,6,capture.width,capture.height);
     fill(255,255,255);
     if(singlePose){
 
